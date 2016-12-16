@@ -35,7 +35,8 @@ public class TestResultRenderer
     public void ShowResults()
     {
         m_ShowResults = true;
-        Cursor.visible = true;
+        //fälschlich Cursor vom HoloToolkit verwendet, was ist der richtige?
+        //Cursor.visible = true;
     }
 
     public void AddResults(string sceneName, ITestResult result)
